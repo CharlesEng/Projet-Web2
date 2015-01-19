@@ -1,0 +1,47 @@
+body {
+background-color:silver;
+}
+
+.contenu{
+padding-top:5em;
+text-align:center;
+}
+
+div.Recherche{
+float:right;
+padding-right:1em;
+}
+
+td{
+padding-right:2em;
+padding-left:2em;
+font-size:15pt;
+}
+
+
+a{
+color:white;
+text-decoration:none;
+}
+
+h1{
+border:0.1em solid black;
+width:13em;
+float:center;
+font-size:40pt;
+}
+
+td:hover{
+background-color:grey;
+}
+
+header{
+border-bottom:1em solid black;
+background-color:black;	
+color:white;
+padding-top:1em;
+font-size:15pt;
+position:fixed;
+width:100%;
+top:0;
+}
