@@ -1,0 +1,75 @@
+<html>
+<head>
+    <meta content="text/html; charset=UTF-8" http-equiv="content-type"></meta>
+    <meta charset="utf-8"></meta>
+	<meta name="viewport" content="width=device-width"/>
+	<meta name="viewport" content="width=device-width, initial-scale=0.8"/>
+    <title>Accueil</title>
+    <link href="Style/style.css" type="text/css" rel="stylesheet"></link>
+</head>
+<body>
+<header>
+<center>
+<table>
+<tr>
+<td><a href="index.html">Accueil</a></td>
+<td><a href="Panier.html">Panier</a></td>
+<td><a href="Catalogue.html">Catalogue</a></td>
+<td><a href="QSN.html">Qui sommes-nous ?</a></td>
+</tr>
+</center>
+<div class="Recherche">
+<label for="Recherche"">Recherche :</label>
+<input type="text" id="Recherche" placeholder="Recherche par mot-clef">
+</select>
+<button title="Rechercher" onclick="self.location.href='Recherche.html'">Go</button>
+</div>
+</table>
+</header>
+
+<div class="Image">
+<img src="Image/JackDaniels70cl.png" width=85% height=60%>	
+</div>	
+
+<div class="Détail">
+<h2>
+Jack Daniel's 40%</h2>
+<p>L'incontournable Jack Daniel's est un whiskey du Tennessee et non un bourbon (Kentucky) : en effet, après distillation, le whisky est filtré par une couche de charbon de bois d'érable de 3 mètres avant sa mise en fût. Ce procédé, le Lincoln County Process, confère toute sa douceur à la star des whiskeys ! </p>
+<p>De couleur ambrée à reflets orangés, le nez est doux, légèrement boisé avec une trace de tabac. La bouche huileuse est marquée par des arômes caractéristiques de cuir, de bois brûlé et de tabac. </p>
+<h3>
+<s>25€</s> &nbsp 20€
+</h3>
+<button class="Panier">Ajouter au panier</button>
+</div>	
+<div class="Description">
+<h4>Description du produit</h4>
+<ul>
+<li>Type / sous-type : Whisky / Straight Tennessee</li>
+<li>Marque / Distillerie : JACK DANIEL'S</li>
+<li>Pays / Région : Etats-Unis / Tennessee</li>
+<li>Négociant : Embouteilleur Officiel</li>
+<li>Degré : 40%</li>
+<li>Volume : 70cl</li>
+</div>
+<br>
+<div class="Commentaire">
+<h5>Laissez un commentaire</h5>
+
+<form method="post">
+<p>
+<label for="nom">Nom :</label><input type="text" name="nom" id="nom" maxlength="30" required>
+</p>
+<p>
+<label for="Avis">Avis :<input type="number" id="Avis" min="1" max="5" placeholder="Avis de 1 à 5" required />
+</p>
+<p>
+<label for="commentaire">Commentaire :</label>
+<br>
+<textarea name="commentaire" id="commentaire" placeholder="Votre commentaire" required></textarea>
+</p>
+<p>
+ <button type="submit" onclick="self.location.href='Commentaire.html'">Envoyer votre message</button>
+</p>
+ </form>
+</div>
+
