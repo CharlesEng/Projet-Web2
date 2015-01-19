@@ -4,16 +4,17 @@
     <meta charset="utf-8"></meta>
 	<meta name="viewport" content="width=device-width"/>
 	<meta name="viewport" content="width=device-width, initial-scale=0.8"/>
-    <title>Accueil</title>
+    <title>Jack Daniel's 70cl</title>
     <link href="Style/style.css" type="text/css" rel="stylesheet"></link>
 </head>
 <body>
 <header>
+<img class="Logo" src="Image/Logo.png" width="5%" height="10%">
 <center>
-<table>
+<table class="Barre">
 <tr>
 <td><a href="index.html">Accueil</a></td>
-<td><a href="Panier.html">Panier</a></td>
+<td><a href="Panier.html">Panier (2)</a></td>
 <td><a href="Catalogue.html">Catalogue</a></td>
 <td><a href="QSN.html">Qui sommes-nous ?</a></td>
 </tr>
@@ -22,13 +23,13 @@
 <label for="Recherche"">Recherche :</label>
 <input type="text" id="Recherche" placeholder="Recherche par mot-clef">
 </select>
-<button title="Rechercher" onclick="self.location.href='Recherche.html'">Go</button>
+<button title="Rechercher" onclick="self.location.href='Catalogue.html'">Go</button>
 </div>
 </table>
 </header>
 
 <div class="Image">
-<img src="Image/JackDaniels70cl.png" width=85% height=60%>	
+<img alt="Jack Daniel's 70cl" src="Image/JackDaniels70cl.png" width=85% height=60% title="Jack Daniel's">	
 </div>	
 
 <div class="Détail">
@@ -60,7 +61,7 @@ Jack Daniel's 40%</h2>
 <label for="nom">Nom :</label><input type="text" name="nom" id="nom" maxlength="30" required>
 </p>
 <p>
-<label for="Avis">Avis :<input type="number" id="Avis" min="1" max="5" placeholder="Avis de 1 à 5" required />
+<label for="Avis">Avis :<input type="number" id="Avis" min="1" max="5" placeholder="1 à 5" required />
 </p>
 <p>
 <label for="commentaire">Commentaire :</label>
@@ -68,7 +69,7 @@ Jack Daniel's 40%</h2>
 <textarea name="commentaire" id="commentaire" placeholder="Votre commentaire" required></textarea>
 </p>
 <p>
- <button type="submit" onclick="self.location.href='Commentaire.html'">Envoyer votre message</button>
+ <button type="submit" onclick="self.location.href='Commentaire.html'">Soumettre votre commentaire</button>
 </p>
  </form>
 </div>

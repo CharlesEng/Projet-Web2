@@ -2,16 +2,19 @@
 <head>
     <meta content="text/html; charset=UTF-8" http-equiv="content-type"></meta>
     <meta charset="utf-8"></meta>
-    <title>Accueil</title>
+    <title>Catalogue</title>
+	<meta name="viewport" content="width=device-width"/>
+	<meta name="viewport" content="width=device-width, initial-scale=0.8"/>
     <link href="Style/style.css" type="text/css" rel="stylesheet"></link>
 </head>
 <body>
 <header>
+<img class="Logo" src="Image/Logo.png" width="5%" height="10%">
 <center>
-<table>
+<table class="Barre">
 <tr>
 <td><a href="index.html">Accueil</a></td>
-<td><a href="Panier.html">Panier</a></td>
+<td><a href="Panier.html">Panier (2)</a></td>
 <td><a href="Catalogue.html">Catalogue</a></td>
 <td><a href="QSN.html">Qui sommes-nous ?</a></td>
 </tr>
@@ -20,10 +23,45 @@
 <label for="Recherche"">Recherche :</label>
 <input type="text" id="Recherche" placeholder="Recherche par mot-clef">
 </select>
-<button title="Rechercher" onclick="self.location.href='Recherche.html'">Go</button>
+<button title="Rechercher" onclick="self.location.href='Catalogue.html'">Go</button>
 </div>
 </table>
 </header>
-<div class="Catalogue">
-<a href="Article.html"><img src="Image/JackDaniels70cl.png" width=10% height=30%></a>
-</div>
+
+<table class="Article">
+<tr>
+<td><a href="Article.html"><img src="Image/JackDaniels70cl.png" title="Jack Daniel's 70cl" alt="Jack Daniel's 70cl" width="140px" height="210px"></a></td>
+<td> <a href="Article.html"><div class="NomA">Jack Daniel's 70cl</div></a> <br><div class="DétailA">L'incontournable Jack Daniel's est un whiskey du Tennessee et non un bourbon (Kentucky) : en effet, après distillation, le whisky est filtré par une couche de charbon de bois d'érable de 3 mètres avant sa mise en fût. Ce procédé, le Lincoln County Process,...<a class="ESP" href="Article.html">En savoir plus</a></div>
+<br>
+<div class="Prix"><s>25,00€</s>&nbsp <strong>20,00€</strong></div>
+<button class="Panier">Ajouter au panier</button>
+</tr>
+<tr>
+<td><a href="Article.html"><img src="Image/Gentleman.png" title="Jack Daniel's Gentleman" alt="Jack Daniel's Gentleman" width="140px" height="210px"></a></td>
+<td> <a href="Article.html"><div class="NomA">Jack Daniel's Gentleman 70cl</div></a> <br><div class="DétailA">Ce Tennesse whiskey est filtré sur du charbon de bois avant la mise en fût et, cas unique, avant la mise en bouteille. Une cuvée rare de Jack Daniel's. De couleur ambrée à reflets rougeâtres, le nez aérien dévoile les notes caractéristiques de bois brûlé...<a class="ESP" href="Article.html">En savoir plus</a></div>
+<br>
+<div class="Prix"><s>36,00€</s>&nbsp <strong>28,80€</strong></div>
+<button class="Panier">Ajouter au panier</button>
+</tr>
+<tr>
+<td><a href="Article.html"><img src="Image/SingleBarrel.png" title="Jack Daniel's Single Barrel" alt="Jack Daniel's Single Barrel" width="140px" height="210px"></a></td>
+<td> <a href="Article.html"><div class="NomA">Jack Daniel's Single Barrel 70cl</div></a> <br><div class="DétailA">Embouteillé fût par fût ce mythique Tennessee whiskey devrait ravir les inconditionnels de la marque. C'est l'occasion idéale de découvrir toute la complexité et richesse de ce whiskey si célèbre mais encore méconnu... De couleur ambre soutenu, le nez doux est...<a class="ESP" href="Article.html">En savoir plus</a></div>
+<br>
+<div class="Prix"><s>44,00€</s>&nbsp <strong>35,20€</strong></div>
+<button class="Panier">Ajouter au panier</button>
+</tr>
+<tr>
+<td><a href="Article.html"><img src="Image/Honey.png" title="Jack Daniel's Honey" alt="Jack Daniel's Honey" width="140px" height="210px"></a></td>
+<td> <a href="Article.html"><div class="NomA">Jack Daniel's Honey 70cl</div></a> <br><div class="DétailA">Jack Daniel’s & Honey une liqueur de whiskey au goût sublimé par le miel. Jack Daniel’s Tennesse Honey est fabriqué à base de l’authentique Jack Daniel’s Old N°7 auquel est ajouté une liqueur de miel. Le goût typique du whiskey filtré au charbon de bois...<a class="ESP" href="Article.html">En savoir plus</a></div>
+<br>
+<div class="Prix"><s>29,00€</s>&nbsp <strong>23,20€</strong></div>
+<button class="Panier">Ajouter au panier</button>
+</tr>
+<tr>
+<td><a href="Article.html"><img src="Image/WhiteRabbit.png" title="Jack Daniel's White Rabbit" alt="Jack Daniel's White Rabbit" width="140px" height="210px"></a></td>
+<td> <a href="Article.html"><div class="NomA">Jack Daniel's White Rabbit 70cl</div></a> <br><div class="DétailA">Une édition limitée de la marque Jack Daniel's No. 7, White Rabbit célèbre le 120ème anniversaire de la fondation du Saloon du même nom, le tout premier bar au monde à proposer Jack Daniel's à ses clients. Avant que Lynchburg ne devienne un « dry...<a class="ESP" href="Article.html">En savoir plus</a></div>
+<br>
+<div class="Prix"><s>35,00€</s>&nbsp <strong>28,00€</strong></div>
+<button class="Panier">Ajouter au panier</button>
+</tr>
+</table>

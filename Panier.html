@@ -2,16 +2,17 @@
 <head>
     <meta content="text/html; charset=UTF-8" http-equiv="content-type"></meta>
     <meta charset="utf-8"></meta>
-    <title>Accueil</title>
+    <title>Panier</title>
     <link href="Style/style.css" type="text/css" rel="stylesheet"></link>
 </head>
 <body>
 <header>
+<img class="Logo" src="Image/Logo.png" width="5%" height="10%">
 <center>
-<table>
+<table class="Barre">
 <tr>
 <td><a href="index.html">Accueil</a></td>
-<td><a href="Panier.html">Panier</a></td>
+<td><a href="Panier.html">Panier (2)</a></td>
 <td><a href="Catalogue.html">Catalogue</a></td>
 <td><a href="QSN.html">Qui sommes-nous ?</a></td>
 </tr>
@@ -20,7 +21,41 @@
 <label for="Recherche"">Recherche :</label>
 <input type="text" id="Recherche" placeholder="Recherche par mot-clef">
 </select>
-<button title="Rechercher" onclick="self.location.href='Recherche.html'">Go</button>
+<button title="Rechercher" onclick="self.location.href='Catalogue.html'">Go</button>
 </div>
 </table>
 </header>
+
+<table class="Article">
+<tr>
+<td>
+<img src="Image/JackDaniels70cl.png" title="Jack Daniel's 70cl" alt="Jack Daniel's 70cl" width="140px" height="210px">
+</td>
+<td>
+<div class="NomA">Jack Daniel's 70cl</div>
+<br>
+<div class="Prix"><s>25,00€</s>&nbsp <strong>20,00€</strong></div>
+</td>
+</tr>
+<tr>
+<td>
+<img src="Image/Gentleman.png" title="Jack Daniel's Gentleman" alt="Jack Daniel's Gentleman" width="140px" height="210px">
+</td>
+<td>
+<div class="NomA">Jack Daniel's Gentleman</div>
+<br>
+<div class="Prix"><s>36,00€</s>&nbsp <strong>28,80€</strong></div>
+</td>
+</tr>
+<tr>
+<td>
+<div class="Total">Total:</div>
+</td>
+<td>
+<center>
+<div class="Total">48,80€</div>
+</center>
+</td>
+</tr>
+</table>
+ <button class="Commande" type="submit" onclick="self.location.href='Commande.html'">Passer la commande</button>
